@@ -41,7 +41,6 @@ class Model extends Component {
              this.Click=this.Click.bind(this);
              this.Click2=this.Click2.bind(this);
              this.handleClick=this.handleClick.bind(this);
-             // this.slideClick=this.slideClick.bind(this);
           }
        componentDidMount()
        {
@@ -59,10 +58,6 @@ class Model extends Component {
        {
            this.setState({activeimg:id});
        }
-       // slideClick()
-       // {
-       //     this.setState({activateslider:!this.state.activateslider});
-       // }
        Click()
        {
            this.setState({activeContent:!this.state.activeContent});
@@ -84,7 +79,6 @@ render(){
                <li key={index} onClick={() => {this.handleClick(img.id)}}><img src={require('./assets/images/'+img.image)} alt={img.name} width="100" height="150"/></li>
               )
          }.bind(this));
-         // last change
    return(
       <div className="container-fluid">
         <nav className="navbar navbar-inverse navbar-fixed-top">
