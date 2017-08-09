@@ -1,0 +1,218 @@
+.glyphicon-menu-hamburger
+{
+  font-size: 15px;
+  margin-left: -40px;
+}
+#navleft li
+{
+  cursor: pointer;
+  display: inline;
+  float:left;
+  color:white;
+  padding-top: 16px !important;
+}
+.navbar-brand
+{
+  font-size: 31px;
+  color:white !important; 
+}
+#navicons li
+{
+  cursor: pointer;
+  display: inline;
+  float:right;
+  color:white;
+  padding-top: 16px !important;
+  padding-left: 2%;
+}
+.nav
+{
+  margin-left: 10% !important;
+  color:white !important;
+}
+.nav ul li
+{
+  font-size:20px !important;
+  color:white !important;
+}
+.active
+{
+  display: block;
+}
+.hide
+{
+  display: none;
+}
+.activetab
+{
+  cursor: pointer;
+  color:#74e0de !important;
+}
+#Shoes,#Clothing,#Brands,#Skateboards 
+{
+  position: absolute;
+  z-index: 2;
+  background-color:#74e0de !important; 
+  margin-top: 51px;
+  margin-left: -14px !important;
+  width:100%;
+  padding-right: 200px;
+  padding-left: 250px;
+}
+#Shoes p,#Clothing p,#Brands p,#Skateboards p
+{
+  font-size:15px;
+} 
+#view
+{
+  padding-top: 1% !important;
+  padding-bottom: 1% !important;
+}
+#Shoes ul li,#Clothing ul li,#Brands ul li,#Skateboards ul li 
+{
+  cursor:pointer;
+  font-size: 15px; 
+}
+#Shoes ul li:hover,#Clothing ul li:hover,#Brands ul li:hover,#Skateboards ul li:hover 
+{
+  text-decoration: underline;
+}
+#Jouranel
+{
+  position: absolute; 
+  z-index: 2 !important;
+  margin-top: 51px;
+  margin-left: -14px;
+  background-color:#74e0de !important;
+  width:100%;
+  padding-right: 200px;
+  padding-left: 250px;
+}
+#Jouranel p
+{
+  cursor: pointer;
+ 
+}
+#Jouranel p:hover
+{
+  text-decoration: underline;
+}
+#row
+{
+  background-color: #74e0de;
+  margin-right: 0;
+  margin-left: 0;
+}
+hr
+{
+  border:1px solid  !important;
+  background-color:#74e0de !important;
+}
+#productdetail
+{
+  margin-top:10% !important;
+  margin-left: 5% !important;
+}
+#productdetail h1
+{
+  line-height: 0.5;
+}
+#button
+{
+  background-color:#74e0de !important;
+  color:white;
+  cursor:pointer;
+  border:1px solid #74e0de;
+  border-radius: 0;
+  margin-right: 33%;
+  padding:1% 0 0 1%; 
+}
+#button:hover
+{
+  background-color: #5994e0 !important;
+  border:1px solid #5994e0 !important;
+}
+#button p
+{
+  font-size: 20px;
+}
+#button p i
+{
+  padding-top: 5px;
+  font-size: 20px !important;
+}
+#button:after
+{
+  border:1px solid black;
+}
+#Details
+{
+  margin-top: 3%;
+  margin-right: 23%;
+}
+#description p ,#product p
+{
+  font-size: 20px;
+}
+#description p:hover
+{
+  color:#74e0de;
+}
+#description p :active
+{
+  color:#74e0de;
+}
+#product p:hover
+{
+  color:#74e0de;
+}
+#product p :active
+{
+  color:#74e0de;
+}
+#productcontent li
+{
+  padding-top: 2%;
+}
+#product
+{
+  margin-top: 7%;
+}
+#wishlist
+{
+  border:1px solid black;
+  margin-top: 3%;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 3%
+}
+#wishlist a
+{
+  margin-left: 30%;
+  font-size: 20px;
+}
+#buttons
+{
+  border:1px solid black;
+  margin-top: 3%;
+  padding-left: 20%;
+  padding-top: 2%;
+  padding-bottom: 3%
+}
+#plus,#minus
+{
+  margin-top: -23px;
+}
+#smallimages
+{
+  margin-top: 3%;
+  padding-left: 0%;
+}
+#smallimages li
+{
+  display: inline;
+  padding-left: 2%;
+  cursor: pointer;
+}
+
+
